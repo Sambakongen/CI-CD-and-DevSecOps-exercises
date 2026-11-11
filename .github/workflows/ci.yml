@@ -27,3 +27,6 @@ jobs:
 
       - name: Build solution
         run: dotnet build --no-restore
+        
+      - name: run unit tests
+        run: dotnet test --no-build
